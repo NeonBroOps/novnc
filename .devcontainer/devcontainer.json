@@ -1,0 +1,8 @@
+{
+  "name": "Ubuntu Desktop with VNC",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "bash .devcontainer/start.sh",
+  "forwardPorts": [6070]
+}
